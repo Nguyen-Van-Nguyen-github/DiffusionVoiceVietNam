@@ -19,12 +19,12 @@ Lý thuyết. [link](https://paperswithcode.com/method/hifi-gan).
 
 Mô hình. [link](https://github.com/jik876/hifi-gan)
 
-## Mô hình 
+## Mô hình real-time-voice-cloning
 Lý thuyết. [link](https://www.semanticscholar.org/paper/REAL-TIME-VOICE-CLONING-Daspute-Pandit/e3e85e846a07d8e9152ecf6f80238e547707ef1f). 
 
 Mô hình. [link](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 
-## Mô hình 
+## Mô hình speaker-diarization
 Lý thuyết. [link1](https://paperswithcode.com/task/speaker-diarization), [link2](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/speaker_diarization/intro.html)
 
 ## Tải các tài nguyên
