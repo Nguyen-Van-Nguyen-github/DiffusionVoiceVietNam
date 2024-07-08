@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1319</width>
+    <height>859</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="luanVan">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>10</y>
+      <width>941</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>LUẬN VĂN TỐT NGHIỆP ĐẠI HỌC NGÀNH KHOA HỌC MÁY TÍNH</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="linkVideo">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>590</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>CHỌN VIDEO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tachMp4Wav">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>637</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>TÁCH VIDEO VÀ ÂM THANH</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="speaker">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>690</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>XÁC ĐỊNH SPEAKER</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_linkVideo">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>770</y>
+      <width>931</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Đường dẫn đến file.</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="convert">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>560</y>
+      <width>281</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>CONVERT </string>
+    </property>
+    <widget class="QPushButton" name="srcFile">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CHỌN FILE NGUỒN</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="tgtFile">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CHỌN FILE NHÃN</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="convertAudio">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>261</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CONVERT</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="viTri">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>770</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>VỊ TRÍ</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="noiFileWav">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>570</y>
+      <width>271</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>NỐI FILE WAV</string>
+    </property>
+    <widget class="QPushButton" name="chonWav1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CHỌN FILE 1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="chonWav2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CHỌN FILE 2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="noiWav">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>NỐI FILE</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gopMp4Wav_2">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>560</y>
+      <width>261</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>GỘP MP4 VÀ WAV</string>
+    </property>
+    <widget class="QPushButton" name="gopMp4Wav">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>GỘP MP4 VÀ WAV</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="chonMp4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CHỌN FILE MP4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="chonWav">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CHỌN FILE WAV</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="imageLogo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>60</y>
+      <width>201</width>
+      <height>151</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tenDeTai">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>280</y>
+      <width>1111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ViSWAP: CHUYỂN ĐỔI GIỌNG NÓI TIẾNG VIỆT VỚI MÔ HÌNH KHUẾCH TÁN</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="GVHD">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>450</y>
+      <width>541</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>GIẢNG VIÊN HƯỚNG DẪN: TS. MÃ TRƯỜNG THÀNH</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>340</y>
+      <width>1071</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ViSWAP: VietnameSe Voice conVersion APplication using diffusion model</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>230</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>ĐỀ TÀI:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>390</y>
+      <width>891</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>SINH VIÊN THỰC HIỆN: NGUYỄN VĂN NGUYỄN - B1913324 - KHMT - K45</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>760</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>VERSION: 1.0.0</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1319</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
