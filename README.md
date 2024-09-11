@@ -16,20 +16,20 @@ DEMO. [link](https://www.youtube.com/watch?v=bgewq_irHfU).
 Python 3.8.0. [link](https://www.python.org/downloads/release/python-380/)
 
 ## Model of diffusion voice conversion
-Document. [link1](https://openreview.net/pdf?id=8c50f-DoWAu), [link2](https://www.isca-archive.org/interspeech_2023/choi23d_interspeech.pdf)
+Document: [link1](https://openreview.net/pdf?id=8c50f-DoWAu), [link2](https://www.isca-archive.org/interspeech_2023/choi23d_interspeech.pdf)
 
 ##hifi-gan Model
-Document. [link](https://paperswithcode.com/method/hifi-gan). 
+Document: [link](https://paperswithcode.com/method/hifi-gan). 
 
-Mô hình. [link](https://github.com/jik876/hifi-gan)
+Model. [link](https://github.com/jik876/hifi-gan)
 
 ## Model of real-time-voice-cloning
-Lý thuyết. [link](https://www.semanticscholar.org/paper/REAL-TIME-VOICE-CLONING-Daspute-Pandit/e3e85e846a07d8e9152ecf6f80238e547707ef1f). 
+Document: [link](https://www.semanticscholar.org/paper/REAL-TIME-VOICE-CLONING-Daspute-Pandit/e3e85e846a07d8e9152ecf6f80238e547707ef1f). 
 
-Mô hình. [link](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
+Model: [link](https://github.com/CorentinJ/Real-Time-Voice-Cloning)
 
 ## Model of speaker-diarization
-Lý thuyết. [link1](https://paperswithcode.com/task/speaker-diarization), [link2](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/speaker_diarization/intro.html)
+Document: [link1](https://paperswithcode.com/task/speaker-diarization), [link2](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/asr/speaker_diarization/intro.html)
 
 ## Trained Models
 checkpts/spk_encoder/encoder.pt [link](https://drive.google.com/file/d/1FTr5FXr5rgRF0C5LNyc9xNII4LtMMv4B/view?usp=drive_link)
