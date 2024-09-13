@@ -11,6 +11,9 @@ cấu trúc cụ thể: input(video) -> tách(âm thanh + video) -> tách âm th
 
 ## DEMO
 DEMO. [link](https://www.youtube.com/watch?v=bgewq_irHfU).
+- [Source Audio](example_audio/source.wav)
+- [Target Audio](example_audio/target.wav)
+- [Result Audio](example_audio/result.wav)
 
 ## Programming Language
 Python 3.8.0. [link](https://www.python.org/downloads/release/python-380/)
